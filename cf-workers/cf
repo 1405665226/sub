@@ -1,3 +1,3 @@
 vless://5a2afab1-d8b8-4426-b60d-02d0ccf9a0a9@104.21.16.123:443?encryption=none&security=tls&sni=vless.shifeng.fun&type=ws&host=vless.shifeng.fun&path=%2F%3Fed%3D2048#vless
 trojan://17715748077@104.21.16.123:443?security=tls&sni=trojan.shifeng.fun&type=ws&host=trojan.shifeng.fun&path=%2F#trojan
-vless://7aeeef19-caa5-4557-aaa6-d0fee4c21c66@104.21.16.123:443?encryption=none&security=tls&sni=test.shifeng.fun&type=ws&host=test.shifeng.fun&path=%2F%3Fed%3D2048#test
+vless://7aeeef19-caa5-4557-aaa6-d0fee4c21c66@104.21.16.123:443?encryption=none&security=tls&sni=vivian.shifeng.fun&type=ws&host=vivian.shifeng.fun&path=%2F%3Fed%3D2048#vivian
