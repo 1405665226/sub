@@ -70,8 +70,10 @@ dns:
 
 proxies:
   - {name: direct, type: direct, udp: true}
-  - {name: vless, type: vless, server: 162.159.249.114, port: 443, uuid: 5a2afab1-d8b8-4426-b60d-02d0ccf9a0a9, tls: true, udp: false, skip-cert-verify: false, servername: vless.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.shifeng.fun}}}
-  - {name: trojan, type: trojan, server: 162.159.249.114, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan.shifeng.fun, skip-cert-verify: false, network: ws, ws-opts: {path: "/", headers: {Host: trojan.shifeng.fun}}}
+  - {name: 🇭🇰 vless, type: vless, server: 104.19.76.73, port: 443, uuid: 5a2afab1-d8b8-4426-b60d-02d0ccf9a0a9, tls: true, udp: false, skip-cert-verify: true, servername: vless.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.shifeng.fun}}}
+  - {name: 🇭🇰 trojan, type: trojan, server: 104.19.76.73, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan.shifeng.fun}}}
+  - {name: 🇺🇸 美国 1, type: vless, server: 104.19.76.73, port: 443, uuid: 7aeeef19-caa5-4557-aaa6-d0fee4c21c66, tls: true, udp: false, skip-cert-verify: true, servername: vivian.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vivian.shifeng.fun}}}
+  - {name: 🇺🇸 美国 2, type: trojan, server: 104.19.76.73, port: 443, password: 17715748077, tls: true, udp: false, sni: nana.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: nana.shifeng.fun}}}
 
 proxy-groups:
   - {name: proxy, type: select, proxies: [auto, 香港, 日本, 台湾, 美国, 新加坡], include-all: true}
