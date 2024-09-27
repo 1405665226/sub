@@ -2,3 +2,13 @@ vless://5a2afab1-d8b8-4426-b60d-02d0ccf9a0a9@198.41.222.166:443?encryption=none&
 trojan://17715748077@198.41.222.166:443?security=tls&sni=trojan.shifeng.fun&type=ws&host=trojan.shifeng.fun&path=%2F#🇭🇰 trojan
 vless://7aeeef19-caa5-4557-aaa6-d0fee4c21c66@198.41.222.166:443?encryption=none&security=tls&sni=vivian.shifeng.fun&type=ws&host=vivian.shifeng.fun&path=%2F%3Fed%3D2048#🇰🇷 vivian
 trojan://17715748077@198.41.222.166:443?security=tls&sni=nana.shifeng.fun&type=ws&host=nana.shifeng.fun&path=%2F#🇰🇷 nana
+vless://a3c24a6a-c768-4d8f-8c6e-9fc902d064c2@198.41.222.166:443?encryption=none&security=tls&sni=hk1.shifeng.fun&type=ws&host=hk1.shifeng.fun&path=%2F%3Fed%3D2048#🇭🇰 香港 1
+trojan://17715748077@198.41.222.166:443?security=tls&sni=hk2.shifeng.fun&type=ws&host=hk2.shifeng.fun&path=%2F#🇭🇰 香港 2
+vless://0420b6d2-dff1-4e77-930a-c41373ee520b@198.41.222.166:443?encryption=none&security=tls&sni=jp1.shifeng.fun&type=ws&host=jp1.shifeng.fun&path=%2F%3Fed%3D2048#🇯🇵 日本 1
+trojan://17715748077@198.41.222.166:443?security=tls&sni=jp2.shifeng.fun&type=ws&host=jp2.shifeng.fun&path=%2F#🇯🇵 日本 2
+vless://8a45710b-bcc1-4e1f-b40a-93f190904c77@198.41.222.166:443?encryption=none&security=tls&sni=sg1.shifeng.fun&type=ws&host=sg1.shifeng.fun&path=%2F%3Fed%3D2048#🇸🇬 新加坡 1
+trojan://17715748077@198.41.222.166:443?security=tls&sni=sg2.shifeng.fun&type=ws&host=sg2.shifeng.fun&path=%2F#🇸🇬 新加坡 2
+vless://caedfb25-85a0-4124-bd39-e734822b70cc@198.41.222.166:443?encryption=none&security=tls&sni=us1.shifeng.fun&type=ws&host=us1.shifeng.fun&path=%2F%3Fed%3D2048#🇺🇸 美国 1
+trojan://17715748077@198.41.222.166:443?security=tls&sni=us2.shifeng.fun&type=ws&host=us2.shifeng.fun&path=%2F#🇺🇸 美国 2
+vless://9a9c9e0c-35a4-4e56-a3ee-96b400626fe2@198.41.222.166:443?encryption=none&security=tls&sni=kr1.shifeng.fun&type=ws&host=kr1.shifeng.fun&path=%2F%3Fed%3D2048#🇰🇷 韩国 1
+trojan://17715748077@198.41.222.166:443?security=tls&sni=kr2.shifeng.fun&type=ws&host=kr2.shifeng.fun&path=%2F#🇰🇷 韩国 2
