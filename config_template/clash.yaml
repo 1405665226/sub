@@ -70,20 +70,13 @@ dns:
 
 proxies:
   - {name: direct, type: direct, udp: true}
-  - {name: 🇭🇰 vless, type: vless, server: 198.41.222.166, port: 443, uuid: 5a2afab1-d8b8-4426-b60d-02d0ccf9a0a9, tls: true, udp: false, skip-cert-verify: true, servername: vless.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.shifeng.fun}}}
-  - {name: 🇭🇰 trojan, type: trojan, server: 198.41.222.166, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan.shifeng.fun}}}
-  - {name: 🇰🇷 vivian, type: vless, server: 198.41.222.166, port: 443, uuid: 7aeeef19-caa5-4557-aaa6-d0fee4c21c66, tls: true, udp: false, skip-cert-verify: true, servername: vivian.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vivian.shifeng.fun}}}
-  - {name: 🇰🇷 nana, type: trojan, server: 198.41.222.166, port: 443, password: 17715748077, tls: true, udp: false, sni: nana.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: nana.shifeng.fun}}}
-  - {name: 🇭🇰 香港 1, type: vless, server: 198.41.222.166, port: 443, uuid: a3c24a6a-c768-4d8f-8c6e-9fc902d064c2, tls: true, udp: false, skip-cert-verify: true, servername: hk1.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk1.shifeng.fun}}}
-  - {name: 🇭🇰 香港 2, type: trojan, server: 198.41.222.166, port: 443, password: 17715748077, tls: true, udp: false, sni: hk2.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: hk2.shifeng.fun}}}
-  - {name: 🇯🇵 日本 1, type: vless, server: 198.41.222.166, port: 443, uuid: 0420b6d2-dff1-4e77-930a-c41373ee520b, tls: true, udp: false, skip-cert-verify: true, servername: jp1.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp1.shifeng.fun}}}
-  - {name: 🇯🇵 日本 2, type: trojan, server: 198.41.222.166, port: 443, password: 17715748077, tls: true, udp: false, sni: jp2.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: jp2.shifeng.fun}}}
-  - {name: 🇸🇬 新加坡 1, type: vless, server: 198.41.222.166, port: 443, uuid: 8a45710b-bcc1-4e1f-b40a-93f190904c77, tls: true, udp: false, skip-cert-verify: true, servername: sg1.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg1.shifeng.fun}}}
-  - {name: 🇸🇬 新加坡 2, type: trojan, server: 198.41.222.166, port: 443, password: 17715748077, tls: true, udp: false, sni: sg2.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: sg2.shifeng.fun}}}
-  - {name: 🇺🇸 美国 1, type: vless, server: 198.41.222.166, port: 443, uuid: caedfb25-85a0-4124-bd39-e734822b70cc, tls: true, udp: false, skip-cert-verify: true, servername: us1.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us1.shifeng.fun}}}
-  - {name: 🇺🇸 美国 2, type: trojan, server: 198.41.222.166, port: 443, password: 17715748077, tls: true, udp: false, sni: us2.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: us2.shifeng.fun}}}
-  - {name: 🇰🇷 韩国 1, type: vless, server: 198.41.222.166, port: 443, uuid: 9a9c9e0c-35a4-4e56-a3ee-96b400626fe2, tls: true, udp: false, skip-cert-verify: true, servername: kr1.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: kr1.shifeng.fun}}}
-  - {name: 🇰🇷 韩国 2, type: trojan, server: 198.41.222.166, port: 443, password: 17715748077, tls: true, udp: false, sni: kr2.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: kr2.shifeng.fun}}}
+  - {name: 🇭🇰 vless, type: vless, server: 162.159.250.81, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vless.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.shifeng.fun}}}
+  - {name: 🇭🇰 trojan, type: trojan, server: 162.159.250.81, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan.shifeng.fun}}}
+  - {name: 🇰🇷 vivian, type: vless, server: 162.159.250.81, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vivian.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vivian.shifeng.fun}}}
+  - {name: 🇰🇷 nana, type: trojan, server: 162.159.250.81, port: 443, password: 17715748077, tls: true, udp: false, sni: nana.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: nana.shifeng.fun}}}
+  - {name: 🇺🇸 美国, type: vless, server: 162.159.250.81, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: us.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.shifeng.fun}}}
+  - {name: 🇯🇵 日本, type: vless, server: 162.159.250.81, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: jp.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jp.shifeng.fun}}}
+  - {name: 🇸🇬 新加坡, type: vless, server: 162.159.250.81, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: sg.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sg.shifeng.fun}}}
 
 proxy-groups:
   - {name: proxy, type: select, proxies: [auto, 香港, 日本, 台湾, 美国, 新加坡, 韩国], include-all: true}
