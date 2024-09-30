@@ -8,3 +8,6 @@ https://stock.hostmonit.com/CloudFlareYes
 # 订阅转换
 ## https://suburl.v1.mk/
 ## https://sub.shifeng.fun/
+
+## ip.chinaz.com
+## ping.chinaz.com
