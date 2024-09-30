@@ -9,5 +9,6 @@ https://stock.hostmonit.com/CloudFlareYes
 ## https://suburl.v1.mk/
 ## https://sub.shifeng.fun/
 
-## ip.chinaz.com
-## ping.chinaz.com
+#
+## https://ip.chinaz.com
+## https://ping.chinaz.com
