@@ -139,7 +139,7 @@
     {
       "tag": "🇭🇰 vless",
       "type": "vless",
-      "server": "162.159.129.65",
+      "server": "172.67.142.45",
       "server_port": 443,
       "uuid": "ea853e6f-4f3d-4ab2-b621-a9dd8c478101",
       "packet_encoding": "xudp",
@@ -161,7 +161,7 @@
     {
       "tag": "🇭🇰 trojan",
       "type": "trojan",
-      "server": "162.159.129.65",
+      "server": "172.67.142.45",
       "server_port": 443,
       "password": "17715748077",
       "tls": {
@@ -180,7 +180,7 @@
     {
       "tag": "🇰🇷 vivian",
       "type": "vless",
-      "server": "162.159.129.65",
+      "server": "172.67.142.45",
       "server_port": 443,
       "uuid": "ea853e6f-4f3d-4ab2-b621-a9dd8c478101",
       "packet_encoding": "xudp",
@@ -202,7 +202,7 @@
     {
       "tag": "🇰🇷 nana",
       "type": "trojan",
-      "server": "162.159.129.65",
+      "server": "172.67.142.45",
       "server_port": 443,
       "password": "17715748077",
       "tls": {
@@ -221,7 +221,7 @@
     {
       "tag": "🇺🇸 美国 1",
       "type": "vless",
-      "server": "162.159.129.65",
+      "server": "172.67.142.45",
       "server_port": 443,
       "uuid": "ea853e6f-4f3d-4ab2-b621-a9dd8c478101",
       "packet_encoding": "xudp",
@@ -243,7 +243,7 @@
     {
       "tag": "🇺🇸 美国 2",
       "type": "trojan",
-      "server": "162.159.129.65",
+      "server": "172.67.142.45",
       "server_port": 443,
       "password": "17715748077",
       "tls": {
