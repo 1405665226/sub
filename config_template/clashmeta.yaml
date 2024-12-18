@@ -7,13 +7,21 @@ proxy-providers:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
+  worker:
+    url: "https://raw.githubusercontent.com/1405665226/sub/refs/heads/main/cf-workers/clashmeta.yaml"
+    type: http
+    interval: 3600
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
 
 mixed-port: 7890
 allow-lan: true
 bind-address: '*'
 mode: rule
 log-level: debug
-unified-delay: true
+unified-delay: false
 tcp-concurrent: true
 find-process-mode: strict
 global-client-fingerprint: chrome
@@ -70,12 +78,6 @@ dns:
 
 proxies:
   - {name: direct, type: direct, udp: true}
-  - {name: 🇭🇰 vless, type: vless, server: 162.159.249.102, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vless.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.shifeng.fun}}}
-  - {name: 🇭🇰 trojan, type: trojan, server: 162.159.249.102, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan.shifeng.fun}}}
-  - {name: 🇰🇷 vivian, type: vless, server: 162.159.249.102, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vivian.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vivian.shifeng.fun}}}
-  - {name: 🇰🇷 nana, type: trojan, server: 162.159.249.102, port: 443, password: 17715748077, tls: true, udp: false, sni: nana.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: nana.shifeng.fun}}}
-  - {name: 🇺🇸 美国 1, type: vless, server: 162.159.249.102, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: usv.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: usv.shifeng.fun}}}
-  - {name: 🇺🇸 美国 2, type: trojan, server: 162.159.249.102, port: 443, password: 17715748077, tls: true, udp: false, sni: ust.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: ust.shifeng.fun}}}
 
 proxy-groups:
   - {name: proxy, type: select, proxies: [auto, 香港, 日本, 台湾, 美国, 新加坡, 韩国], include-all: true}
