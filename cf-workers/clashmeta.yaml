@@ -59,7 +59,6 @@ dns:
       - https://dns.google/dns-query
 
 proxies:
-  - {name: direct, type: direct, udp: true}
   - {name: 🇭🇰 vless, type: vless, server: 172.67.215.255, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vless.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.shifeng.fun}}}
   - {name: 🇭🇰 trojan, type: trojan, server: 172.67.215.255, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan.shifeng.fun}}}
   - {name: 🇰🇷 vivian, type: vless, server: 172.67.215.255, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vivian.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vivian.shifeng.fun}}}
