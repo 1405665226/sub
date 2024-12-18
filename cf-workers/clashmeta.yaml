@@ -68,7 +68,7 @@ proxies:
   - {name: 🇺🇸 美国 2, type: trojan, server: 172.67.215.255, port: 443, password: 17715748077, tls: true, udp: false, sni: ust.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: ust.shifeng.fun}}}
 
 proxy-groups:
-  - {name: proxy, type: select, proxies: [auto, direct], include-all: true}
+  - {name: proxy, type: select, proxies: [auto], include-all: true}
   - {name: auto, type: url-test, include-all: true, exclude-filter: direct, url: https://www.gstatic.com/generate_204, interval: 300, tolerance: 50}
 
 rules:
