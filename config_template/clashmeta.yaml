@@ -1,6 +1,6 @@
 proxy-providers:
   xsus:
-    url: "https://xsus.men/api/v1/client/subscribe?token=9a1e358c142052488573581253f0ff48"
+    url: "http://106.75.141.168:3389/api/v1/client/subscribe?token=9a1e358c142052488573581253f0ff48"
     type: http
     interval: 3600
     health-check:
