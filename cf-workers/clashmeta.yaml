@@ -3,7 +3,7 @@ allow-lan: true
 bind-address: '*'
 mode: rule
 log-level: debug
-unified-delay: true
+unified-delay: false
 tcp-concurrent: true
 find-process-mode: strict
 global-client-fingerprint: chrome
