@@ -103,8 +103,8 @@
         "direct",
         "🇭🇰 vless",
         "🇭🇰 trojan",
-        "🇰🇷 vivian",
-        "🇰🇷 nana",
+        "🇰🇷 韩国 1",
+        "🇰🇷 韩国 2",
         "🇺🇸 美国 1",
         "🇺🇸 美国 2"
       ]
@@ -115,8 +115,8 @@
       "outbounds": [
         "🇭🇰 vless",
         "🇭🇰 trojan",
-        "🇰🇷 vivian",
-        "🇰🇷 nana",
+        "🇰🇷 韩国 1",
+        "🇰🇷 韩国 2",
         "🇺🇸 美国 1",
         "🇺🇸 美国 2"
       ],
@@ -178,7 +178,7 @@
       }
     },
     {
-      "tag": "🇰🇷 vivian",
+      "tag": "🇰🇷 韩国 1",
       "type": "vless",
       "server": "ns.cloudflare.com",
       "server_port": 443,
@@ -187,20 +187,20 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "vivian.shifeng.fun"
+        "server_name": "vless-kr.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "vivian.shifeng.fun"
+          "Host": "vless-kr.shifeng.fun"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
       }
     },
     {
-      "tag": "🇰🇷 nana",
+      "tag": "🇰🇷 韩国 2",
       "type": "trojan",
       "server": "ns.cloudflare.com",
       "server_port": 443,
@@ -208,13 +208,13 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "nana.shifeng.fun"
+        "server_name": "trojan-kr.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "nana.shifeng.fun"
+          "Host": "trojan-kr.shifeng.fun"
         }
       }
     },
@@ -228,13 +228,13 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "usv.shifeng.fun"
+        "server_name": "vless-us.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "usv.shifeng.fun"
+          "Host": "vless-us.shifeng.fun"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
@@ -249,13 +249,13 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "ust.shifeng.fun"
+        "server_name": "trojan-us.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "ust.shifeng.fun"
+          "Host": "trojan-us.shifeng.fun"
         }
       }
     }
