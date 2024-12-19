@@ -61,17 +61,17 @@ dns:
 proxies:
   - {name: 🇭🇰 vless, type: vless, server: ns.cloudflare.com, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vless.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.shifeng.fun}}}
   - {name: 🇭🇰 trojan, type: trojan, server: ns.cloudflare.com, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan.shifeng.fun}}}
-  - {name: 🇰🇷 vivian, type: vless, server: ns.cloudflare.com, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vivian.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vivian.shifeng.fun}}}
-  - {name: 🇰🇷 nana, type: trojan, server: ns.cloudflare.com, port: 443, password: 17715748077, tls: true, udp: false, sni: nana.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: nana.shifeng.fun}}}
-  - {name: 🇺🇸 美国 1, type: vless, server: ns.cloudflare.com, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: usv.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: usv.shifeng.fun}}}
-  - {name: 🇺🇸 美国 2, type: trojan, server: ns.cloudflare.com, port: 443, password: 17715748077, tls: true, udp: false, sni: ust.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: ust.shifeng.fun}}}
+  - {name: 🇰🇷 韩国 1, type: vless, server: ns.cloudflare.com, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vless-kr.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless-kr.shifeng.fun}}}
+  - {name: 🇰🇷 韩国 2, type: trojan, server: ns.cloudflare.com, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan-kr.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan-kr.shifeng.fun}}}
+  - {name: 🇺🇸 美国 1, type: vless, server: ns.cloudflare.com, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vless-us.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless-us.shifeng.fun}}}
+  - {name: 🇺🇸 美国 2, type: trojan, server: ns.cloudflare.com, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan-us.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan-us.shifeng.fun}}}
 
 proxy-groups:
   - {name: proxy, type: select, proxies: [auto], include-all: true}
   - {name: auto, type: url-test, include-all: true, exclude-filter: direct, url: https://www.gstatic.com/generate_204, interval: 300, tolerance: 50}
 
 rules:
-  - PROCESS-NAME,rustdesk.exe,direct
+  - PROCESS-NAME,rtrojan-usdesk.exe,direct
   - DOMAIN-SUFFIX,googleapis.cn,proxy
   - RULE-SET,geosite_category-ads-all,REJECT
   - RULE-SET,geosite_cn,direct
