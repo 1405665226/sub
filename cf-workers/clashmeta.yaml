@@ -59,12 +59,12 @@ dns:
       - https://dns.google/dns-query
 
 proxies:
-  - {name: 🇭🇰 vless, type: vless, server: 172.67.177.125, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vless.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.shifeng.fun}}}
-  - {name: 🇭🇰 trojan, type: trojan, server: 172.67.177.125, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan.shifeng.fun}}}
-  - {name: 🇰🇷 vivian, type: vless, server: 172.67.177.125, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vivian.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vivian.shifeng.fun}}}
-  - {name: 🇰🇷 nana, type: trojan, server: 172.67.177.125, port: 443, password: 17715748077, tls: true, udp: false, sni: nana.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: nana.shifeng.fun}}}
-  - {name: 🇺🇸 美国 1, type: vless, server: 172.67.177.125, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: usv.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: usv.shifeng.fun}}}
-  - {name: 🇺🇸 美国 2, type: trojan, server: 172.67.177.125, port: 443, password: 17715748077, tls: true, udp: false, sni: ust.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: ust.shifeng.fun}}}
+  - {name: 🇭🇰 vless, type: vless, server: ns.cloudflare.com, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vless.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.shifeng.fun}}}
+  - {name: 🇭🇰 trojan, type: trojan, server: ns.cloudflare.com, port: 443, password: 17715748077, tls: true, udp: false, sni: trojan.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: trojan.shifeng.fun}}}
+  - {name: 🇰🇷 vivian, type: vless, server: ns.cloudflare.com, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: vivian.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vivian.shifeng.fun}}}
+  - {name: 🇰🇷 nana, type: trojan, server: ns.cloudflare.com, port: 443, password: 17715748077, tls: true, udp: false, sni: nana.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: nana.shifeng.fun}}}
+  - {name: 🇺🇸 美国 1, type: vless, server: ns.cloudflare.com, port: 443, uuid: ea853e6f-4f3d-4ab2-b621-a9dd8c478101, tls: true, udp: false, skip-cert-verify: true, servername: usv.shifeng.fun, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: usv.shifeng.fun}}}
+  - {name: 🇺🇸 美国 2, type: trojan, server: ns.cloudflare.com, port: 443, password: 17715748077, tls: true, udp: false, sni: ust.shifeng.fun, skip-cert-verify: true, network: ws, ws-opts: {path: "/", headers: {Host: ust.shifeng.fun}}}
 
 proxy-groups:
   - {name: proxy, type: select, proxies: [auto], include-all: true}
