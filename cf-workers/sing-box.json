@@ -101,24 +101,24 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 vless",
-        "🇭🇰 trojan",
-        "🇰🇷 韩国 1",
-        "🇰🇷 韩国 2",
-        "🇺🇸 美国 1",
-        "🇺🇸 美国 2"
+        "🇭🇰 vivian",
+        "🇭🇰 nana",
+        "🇰🇷 susu",
+        "🇰🇷 rourou",
+        "🇺🇸 anan",
+        "🇺🇸 namprikk"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇭🇰 vless",
-        "🇭🇰 trojan",
-        "🇰🇷 韩国 1",
-        "🇰🇷 韩国 2",
-        "🇺🇸 美国 1",
-        "🇺🇸 美国 2"
+        "🇭🇰 vivian",
+        "🇭🇰 nana",
+        "🇰🇷 susu",
+        "🇰🇷 rourou",
+        "🇺🇸 anan",
+        "🇺🇸 namprikk"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -137,29 +137,29 @@
       "tag": "block"
     },
     {
-      "tag": "🇭🇰 vless",
+      "tag": "🇭🇰 vivian",
       "type": "vless",
       "server": "ns.cloudflare.com",
       "server_port": 443,
-      "uuid": "ea853e6f-4f3d-4ab2-b621-a9dd8c478101",
+      "uuid": "6a40c87e-2c7e-4120-876e-5159361c9fc3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "vless.shifeng.fun"
+        "server_name": "vivian.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "vless.shifeng.fun"
+          "Host": "vivian.shifeng.fun"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
       }
     },
     {
-      "tag": "🇭🇰 trojan",
+      "tag": "🇭🇰 nana",
       "type": "trojan",
       "server": "ns.cloudflare.com",
       "server_port": 443,
@@ -167,40 +167,40 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "trojan.shifeng.fun"
+        "server_name": "nana.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "trojan.shifeng.fun"
+          "Host": "nana.shifeng.fun"
         }
       }
     },
     {
-      "tag": "🇰🇷 韩国 1",
+      "tag": "🇰🇷 susu",
       "type": "vless",
       "server": "ns.cloudflare.com",
       "server_port": 443,
-      "uuid": "ea853e6f-4f3d-4ab2-b621-a9dd8c478101",
+      "uuid": "6a40c87e-2c7e-4120-876e-5159361c9fc3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "vless-kr.shifeng.fun"
+        "server_name": "susu.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "vless-kr.shifeng.fun"
+          "Host": "susu.shifeng.fun"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
       }
     },
     {
-      "tag": "🇰🇷 韩国 2",
+      "tag": "🇰🇷 rourou",
       "type": "trojan",
       "server": "ns.cloudflare.com",
       "server_port": 443,
@@ -208,40 +208,40 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "trojan-kr.shifeng.fun"
+        "server_name": "rourou.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "trojan-kr.shifeng.fun"
+          "Host": "rourou.shifeng.fun"
         }
       }
     },
     {
-      "tag": "🇺🇸 美国 1",
+      "tag": "🇺🇸 anan",
       "type": "vless",
       "server": "ns.cloudflare.com",
       "server_port": 443,
-      "uuid": "ea853e6f-4f3d-4ab2-b621-a9dd8c478101",
+      "uuid": "6a40c87e-2c7e-4120-876e-5159361c9fc3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "vless-us.shifeng.fun"
+        "server_name": "anan.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "vless-us.shifeng.fun"
+          "Host": "anan.shifeng.fun"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
       }
     },
     {
-      "tag": "🇺🇸 美国 2",
+      "tag": "🇺🇸 namprikk",
       "type": "trojan",
       "server": "ns.cloudflare.com",
       "server_port": 443,
@@ -249,13 +249,13 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "trojan-us.shifeng.fun"
+        "server_name": "namprikk.shifeng.fun"
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "trojan-us.shifeng.fun"
+          "Host": "namprikk.shifeng.fun"
         }
       }
     }
