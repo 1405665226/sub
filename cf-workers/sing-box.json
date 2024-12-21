@@ -102,11 +102,7 @@
         "auto",
         "direct",
         "🇭🇰 vivian",
-        "🇭🇰 nana",
-        "🇰🇷 susu",
-        "🇰🇷 rourou",
-        "🇺🇸 anan",
-        "🇺🇸 namprikk"
+        "🇭🇰 susu"
       ]
     },
     {
@@ -114,11 +110,7 @@
       "type": "urltest",
       "outbounds": [
         "🇭🇰 vivian",
-        "🇭🇰 nana",
-        "🇰🇷 susu",
-        "🇰🇷 rourou",
-        "🇺🇸 anan",
-        "🇺🇸 namprikk"
+        "🇭🇰 susu"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -159,31 +151,11 @@
       }
     },
     {
-      "tag": "🇭🇰 nana",
+      "tag": "🇭🇰 susu",
       "type": "trojan",
       "server": "ns.cloudflare.com",
       "server_port": 443,
       "password": "17715748077",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "nana.shifeng.fun"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "nana.shifeng.fun"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 susu",
-      "type": "vless",
-      "server": "ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "6a40c87e-2c7e-4120-876e-5159361c9fc3",
-      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
@@ -194,68 +166,6 @@
         "path": "/",
         "headers": {
           "Host": "susu.shifeng.fun"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2048
-      }
-    },
-    {
-      "tag": "🇰🇷 rourou",
-      "type": "trojan",
-      "server": "ns.cloudflare.com",
-      "server_port": 443,
-      "password": "17715748077",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "rourou.shifeng.fun"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "rourou.shifeng.fun"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 anan",
-      "type": "vless",
-      "server": "ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "6a40c87e-2c7e-4120-876e-5159361c9fc3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "anan.shifeng.fun"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "anan.shifeng.fun"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2048
-      }
-    },
-    {
-      "tag": "🇺🇸 namprikk",
-      "type": "trojan",
-      "server": "ns.cloudflare.com",
-      "server_port": 443,
-      "password": "17715748077",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "namprikk.shifeng.fun"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "namprikk.shifeng.fun"
         }
       }
     }
